@@ -1,0 +1,5 @@
+com\qa\proj\base\BasePage.class
+com\qa\proj\utils\Constants.class
+com\qa\proj\utils\ElementUtil.class
+com\qa\proj\base\BasePageTest.class
+com\qa\proj\pages\LoginPage.class
