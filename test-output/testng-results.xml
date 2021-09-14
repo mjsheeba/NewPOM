@@ -1,57 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Failed suite [Default suite]" duration-ms="17176" started-at="2021-08-17T03:59:10Z" finished-at="2021-08-17T03:59:27Z">
+  <suite name="TN Test automtion regression suite" duration-ms="16458" started-at="2021-08-22T22:06:33Z" finished-at="2021-08-22T22:06:49Z">
     <groups>
     </groups>
-    <test name="Default test(failed)" duration-ms="17176" started-at="2021-08-17T03:59:10Z" finished-at="2021-08-17T03:59:27Z">
-      <class name="com.qa.proj.tests.AccountsPageTest">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.qa.proj.tests.AccountsPageTest@604ed9f0]" name="SetUp" is-config="true" duration-ms="6368" started-at="2021-08-17T03:59:10Z" finished-at="2021-08-17T03:59:16Z">
+    <test name="Login Page Test" duration-ms="11751" started-at="2021-08-22T22:06:33Z" finished-at="2021-08-22T22:06:45Z">
+      <class name="com.qa.proj.tests.LoginPageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.qa.proj.tests.LoginPageTest@7403c468]" name="SetUp" is-config="true" duration-ms="4247" started-at="2021-08-22T22:06:33Z" finished-at="2021-08-22T22:06:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="AccountsPageTestSetUp()[pri:0, instance:com.qa.proj.tests.AccountsPageTest@604ed9f0]" name="AccountsPageTestSetUp" is-config="true" duration-ms="1189" started-at="2021-08-17T03:59:16Z" finished-at="2021-08-17T03:59:17Z">
+        <test-method status="PASS" signature="LoginPageTestSetUp()[pri:0, instance:com.qa.proj.tests.LoginPageTest@7403c468]" name="LoginPageTestSetUp" is-config="true" duration-ms="2308" started-at="2021-08-22T22:06:37Z" finished-at="2021-08-22T22:06:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTestSetUp -->
+        <test-method status="PASS" signature="verifyLoginPageTiltleTest()[pri:2, instance:com.qa.proj.tests.LoginPageTest@7403c468]" name="verifyLoginPageTiltleTest" duration-ms="26" started-at="2021-08-22T22:06:40Z" finished-at="2021-08-22T22:06:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTiltleTest -->
+        <test-method status="PASS" signature="LogoutPageTestSetUp()[pri:0, instance:com.qa.proj.tests.LoginPageTest@7403c468]" name="LogoutPageTestSetUp" is-config="true" duration-ms="1808" started-at="2021-08-22T22:06:40Z" finished-at="2021-08-22T22:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutPageTestSetUp -->
+        <test-method status="PASS" signature="LoginPageTestSetUp()[pri:0, instance:com.qa.proj.tests.LoginPageTest@7403c468]" name="LoginPageTestSetUp" is-config="true" duration-ms="1229" started-at="2021-08-22T22:06:41Z" finished-at="2021-08-22T22:06:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTestSetUp -->
+        <test-method status="PASS" signature="verifyDesktopMenu()[pri:3, instance:com.qa.proj.tests.LoginPageTest@7403c468]" name="verifyDesktopMenu" duration-ms="35" started-at="2021-08-22T22:06:43Z" finished-at="2021-08-22T22:06:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDesktopMenu -->
+        <test-method status="PASS" signature="LogoutPageTestSetUp()[pri:0, instance:com.qa.proj.tests.LoginPageTest@7403c468]" name="LogoutPageTestSetUp" is-config="true" duration-ms="1435" started-at="2021-08-22T22:06:43Z" finished-at="2021-08-22T22:06:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutPageTestSetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.proj.tests.LoginPageTest@7403c468]" name="TearDown" is-config="true" duration-ms="630" started-at="2021-08-22T22:06:44Z" finished-at="2021-08-22T22:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.qa.proj.tests.LoginPageTest -->
+    </test> <!-- Login Page Test -->
+    <test name="Shopping Cart Test" duration-ms="15425" started-at="2021-08-22T22:06:33Z" finished-at="2021-08-22T22:06:48Z">
+      <class name="com.qa.proj.tests.ShoppingCartPageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.qa.proj.tests.ShoppingCartPageTest@704921a5]" name="SetUp" is-config="true" duration-ms="4216" started-at="2021-08-22T22:06:33Z" finished-at="2021-08-22T22:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="ShoppingCartPageTestSetUp()[pri:0, instance:com.qa.proj.tests.ShoppingCartPageTest@704921a5]" name="ShoppingCartPageTestSetUp" is-config="true" duration-ms="2203" started-at="2021-08-22T22:06:37Z" finished-at="2021-08-22T22:06:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoppingCartPageTestSetUp -->
+        <test-method status="PASS" signature="verifyCheckOut()[pri:0, instance:com.qa.proj.tests.ShoppingCartPageTest@704921a5]" name="verifyCheckOut" duration-ms="6979" started-at="2021-08-22T22:06:39Z" finished-at="2021-08-22T22:06:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckOut -->
+        <test-method status="PASS" signature="LogoutPageTestSetUp()[pri:0, instance:com.qa.proj.tests.ShoppingCartPageTest@704921a5]" name="LogoutPageTestSetUp" is-config="true" duration-ms="1371" started-at="2021-08-22T22:06:46Z" finished-at="2021-08-22T22:06:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutPageTestSetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.proj.tests.ShoppingCartPageTest@704921a5]" name="TearDown" is-config="true" duration-ms="646" started-at="2021-08-22T22:06:48Z" finished-at="2021-08-22T22:06:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.qa.proj.tests.ShoppingCartPageTest -->
+    </test> <!-- Shopping Cart Test -->
+    <test name="Accounts Page Test" duration-ms="16379" started-at="2021-08-22T22:06:33Z" finished-at="2021-08-22T22:06:49Z">
+      <class name="com.qa.proj.tests.AccountsPageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.qa.proj.tests.AccountsPageTest@5c072e3f]" name="SetUp" is-config="true" duration-ms="4074" started-at="2021-08-22T22:06:33Z" finished-at="2021-08-22T22:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="AccountsPageTestSetUp()[pri:0, instance:com.qa.proj.tests.AccountsPageTest@5c072e3f]" name="AccountsPageTestSetUp" is-config="true" duration-ms="2509" started-at="2021-08-22T22:06:37Z" finished-at="2021-08-22T22:06:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AccountsPageTestSetUp -->
-        <test-method status="PASS" signature="verifylistofSections()[pri:0, instance:com.qa.proj.tests.AccountsPageTest@604ed9f0]" name="verifylistofSections" duration-ms="180" started-at="2021-08-17T03:59:17Z" finished-at="2021-08-17T03:59:18Z">
+        <test-method status="PASS" signature="verifylistofSections()[pri:0, instance:com.qa.proj.tests.AccountsPageTest@5c072e3f]" name="verifylistofSections" duration-ms="291" started-at="2021-08-22T22:06:40Z" finished-at="2021-08-22T22:06:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylistofSections -->
-        <test-method status="PASS" signature="LogoutPageTestSetUp()[pri:0, instance:com.qa.proj.tests.AccountsPageTest@604ed9f0]" name="LogoutPageTestSetUp" is-config="true" duration-ms="1430" started-at="2021-08-17T03:59:18Z" finished-at="2021-08-17T03:59:19Z">
+        <test-method status="PASS" signature="LogoutPageTestSetUp()[pri:0, instance:com.qa.proj.tests.AccountsPageTest@5c072e3f]" name="LogoutPageTestSetUp" is-config="true" duration-ms="1746" started-at="2021-08-22T22:06:40Z" finished-at="2021-08-22T22:06:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogoutPageTestSetUp -->
-        <test-method status="PASS" signature="AccountsPageTestSetUp()[pri:0, instance:com.qa.proj.tests.AccountsPageTest@604ed9f0]" name="AccountsPageTestSetUp" is-config="true" duration-ms="1186" started-at="2021-08-17T03:59:19Z" finished-at="2021-08-17T03:59:20Z">
+        <test-method status="PASS" signature="AccountsPageTestSetUp()[pri:0, instance:com.qa.proj.tests.AccountsPageTest@5c072e3f]" name="AccountsPageTestSetUp" is-config="true" duration-ms="1251" started-at="2021-08-22T22:06:42Z" finished-at="2021-08-22T22:06:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AccountsPageTestSetUp -->
-        <test-method status="PASS" signature="verifylistofsubSections()[pri:1, instance:com.qa.proj.tests.AccountsPageTest@604ed9f0]" name="verifylistofsubSections" duration-ms="497" started-at="2021-08-17T03:59:20Z" finished-at="2021-08-17T03:59:21Z">
+        <test-method status="PASS" signature="verifylistofsubSections()[pri:1, instance:com.qa.proj.tests.AccountsPageTest@5c072e3f]" name="verifylistofsubSections" duration-ms="496" started-at="2021-08-22T22:06:43Z" finished-at="2021-08-22T22:06:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylistofsubSections -->
-        <test-method status="PASS" signature="LogoutPageTestSetUp()[pri:0, instance:com.qa.proj.tests.AccountsPageTest@604ed9f0]" name="LogoutPageTestSetUp" is-config="true" duration-ms="1546" started-at="2021-08-17T03:59:21Z" finished-at="2021-08-17T03:59:22Z">
+        <test-method status="PASS" signature="LogoutPageTestSetUp()[pri:0, instance:com.qa.proj.tests.AccountsPageTest@5c072e3f]" name="LogoutPageTestSetUp" is-config="true" duration-ms="1458" started-at="2021-08-22T22:06:43Z" finished-at="2021-08-22T22:06:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogoutPageTestSetUp -->
-        <test-method status="PASS" signature="AccountsPageTestSetUp()[pri:0, instance:com.qa.proj.tests.AccountsPageTest@604ed9f0]" name="AccountsPageTestSetUp" is-config="true" duration-ms="1403" started-at="2021-08-17T03:59:22Z" finished-at="2021-08-17T03:59:24Z">
+        <test-method status="PASS" signature="AccountsPageTestSetUp()[pri:0, instance:com.qa.proj.tests.AccountsPageTest@5c072e3f]" name="AccountsPageTestSetUp" is-config="true" duration-ms="1264" started-at="2021-08-22T22:06:45Z" finished-at="2021-08-22T22:06:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AccountsPageTestSetUp -->
-        <test-method status="PASS" signature="verifyNewsletterSubscription()[pri:2, instance:com.qa.proj.tests.AccountsPageTest@604ed9f0]" name="verifyNewsletterSubscription" duration-ms="1272" started-at="2021-08-17T03:59:24Z" finished-at="2021-08-17T03:59:25Z">
+        <test-method status="PASS" signature="verifyNewsletterSubscription()[pri:2, instance:com.qa.proj.tests.AccountsPageTest@5c072e3f]" name="verifyNewsletterSubscription" duration-ms="1197" started-at="2021-08-22T22:06:46Z" finished-at="2021-08-22T22:06:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNewsletterSubscription -->
-        <test-method status="PASS" signature="LogoutPageTestSetUp()[pri:0, instance:com.qa.proj.tests.AccountsPageTest@604ed9f0]" name="LogoutPageTestSetUp" is-config="true" duration-ms="1451" started-at="2021-08-17T03:59:25Z" finished-at="2021-08-17T03:59:26Z">
+        <test-method status="PASS" signature="LogoutPageTestSetUp()[pri:0, instance:com.qa.proj.tests.AccountsPageTest@5c072e3f]" name="LogoutPageTestSetUp" is-config="true" duration-ms="1439" started-at="2021-08-22T22:06:47Z" finished-at="2021-08-22T22:06:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogoutPageTestSetUp -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.proj.tests.AccountsPageTest@604ed9f0]" name="TearDown" is-config="true" duration-ms="626" started-at="2021-08-17T03:59:26Z" finished-at="2021-08-17T03:59:27Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.proj.tests.AccountsPageTest@5c072e3f]" name="TearDown" is-config="true" duration-ms="633" started-at="2021-08-22T22:06:49Z" finished-at="2021-08-22T22:06:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.qa.proj.tests.AccountsPageTest -->
-    </test> <!-- Default test(failed) -->
-  </suite> <!-- Failed suite [Default suite] -->
+    </test> <!-- Accounts Page Test -->
+    <test name="Product Category Test" duration-ms="16458" started-at="2021-08-22T22:06:33Z" finished-at="2021-08-22T22:06:49Z">
+      <class name="com.qa.proj.tests.ProductCategoryPageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.qa.proj.tests.ProductCategoryPageTest@306279ee]" name="SetUp" is-config="true" duration-ms="3880" started-at="2021-08-22T22:06:33Z" finished-at="2021-08-22T22:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="ProductCategoryPageTestSetUp()[pri:0, instance:com.qa.proj.tests.ProductCategoryPageTest@306279ee]" name="ProductCategoryPageTestSetUp" is-config="true" duration-ms="2463" started-at="2021-08-22T22:06:37Z" finished-at="2021-08-22T22:06:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCategoryPageTestSetUp -->
+        <test-method status="PASS" signature="verifylistofSortByDropdown()[pri:0, instance:com.qa.proj.tests.ProductCategoryPageTest@306279ee]" name="verifylistofSortByDropdown" duration-ms="7993" started-at="2021-08-22T22:06:39Z" finished-at="2021-08-22T22:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylistofSortByDropdown -->
+        <test-method status="PASS" signature="LogoutPageTestSetUp()[pri:0, instance:com.qa.proj.tests.ProductCategoryPageTest@306279ee]" name="LogoutPageTestSetUp" is-config="true" duration-ms="1471" started-at="2021-08-22T22:06:47Z" finished-at="2021-08-22T22:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutPageTestSetUp -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.proj.tests.ProductCategoryPageTest@306279ee]" name="TearDown" is-config="true" duration-ms="619" started-at="2021-08-22T22:06:49Z" finished-at="2021-08-22T22:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.qa.proj.tests.ProductCategoryPageTest -->
+    </test> <!-- Product Category Test -->
+  </suite> <!-- TN Test automtion regression suite -->
 </testng-results>

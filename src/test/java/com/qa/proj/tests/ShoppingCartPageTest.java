@@ -23,7 +23,7 @@ public class ShoppingCartPageTest extends BasePageTest{
 		 SoftAssert softAssertion= new SoftAssert();	 
 		 productCategoryPage = accountsPage.doSearch("iMac");	 
 		 productCategoryPage.addToCart("iMac");
-		 shoppingCart=productCategoryPage.openShoppingCartThroughLink("iMac");	
+		 shoppingCart=productCategoryPage.openShoppingCartThroughLink("iMac8");	
 		softAssertion.assertEquals(shoppingCart.shoppingCartText(),"Shopping Cart 123");
 		//Assert.assertEquals(shoppingCart.shoppingCartText(),"Shopping Cart");
 		 shoppingCart.clearShoppingCart();
